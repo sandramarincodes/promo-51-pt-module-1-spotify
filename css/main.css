@@ -84,11 +84,19 @@ button {
 .icono-benefit {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  
 }
 
 .texto-benefit {
   display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+}
+
+article {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 15px;
 }
