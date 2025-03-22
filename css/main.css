@@ -81,11 +81,14 @@ button {
   justify-content: center;
 }
 
-.section-benefits {
-  display: flex;
-}
-
 .icono-benefit {
   display: flex;
-  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.texto-benefit {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
