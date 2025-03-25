@@ -61,6 +61,10 @@ header {
   height: auto;
 }
 
+.hiden {
+  display: none;
+}
+
 .section-heading p {
   font-size: 12px;
 }
@@ -121,4 +125,38 @@ footer a {
 
 .footer-links {
   display: flex;
+  flex-direction: row;
+  gap: 45px;
+}
+
+.footer-links-spotify {
+  display: flex;
+  justify-content: end;
+}
+
+.footer-info {
+  margin-top: 30px;
+}
+
+@media all and (min-width: 481px) and (max-width: 1000px) {
+
+  .section-heading {
+    background-image: url("../img/premium_dancer.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 15px;
+
+  }
+
+  .hiden {
+    display: flex;
+    flex-direction: column;
+  }
+  .menu {
+    display: none;
+  }
+
+  
+
 }
